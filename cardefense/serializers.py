@@ -1,4 +1,4 @@
-from django_rest import serializers
+from rest_framework import serializers
 from cardefense.models import User
 
 
