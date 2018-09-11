@@ -23,4 +23,4 @@ router.register(r'^users', UserViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-]
+] + router.urls
